@@ -23,7 +23,7 @@ export default function About() {
           />
         </Container>
         <p className={style.text}>
-          Hello, I'm Carlos Pérez, a FULL STACK DEVELOPER with more than 10 year
+          Hello, I&apos;m Carlos Pérez, a FULL STACK DEVELOPER with more than 10 year
           of experience in the industry. In these years I have dedicate myself
           to offering tailor-made solutions to management problems, I have
           worked on different platforms with various programming languages which
@@ -31,7 +31,7 @@ export default function About() {
           integrating other knowledge with PHP Symfony, doctrine, Oracle, SQL
           Server, MariaDB. And all this has been, with creative thinking,
           problem solving, multidisciplinary teamwork, effective communication
-          and autonomy.{' '}
+          and autonomy.
         </p>
       </Grid>
       
