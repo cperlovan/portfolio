@@ -1,0 +1,15 @@
+.title {
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: larger;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 15px;
+}
