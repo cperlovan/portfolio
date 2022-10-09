@@ -10,7 +10,7 @@ return (
             <Image
                 boxSize='200px'
                 objectFit='cover'
-                src= 'cane.png'
+                src= 'logoCane.png'
                 alt='Cane-food'
                 />
             <p className={style.subtitle}>Final Project - Bootcamp Soy Henry
@@ -21,7 +21,7 @@ return (
                 <Image
                 boxSize='200px'
                 objectFit='cover'
-                src= 'dogs.png'
+                src= 'huella.png'
                 alt='Dogs Life'
                 />
             <p className={style.subtitle}>Individual Project - Bootcamp Soy Henry
