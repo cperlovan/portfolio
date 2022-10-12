@@ -15,6 +15,7 @@ import styles from '/styles/Home.module.css'
 import theme from '@/styles/theme'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
+
 import { BsLinkedin } from 'react-icons/bs'
 import { SiGmail } from 'react-icons/si'
 import {
@@ -27,10 +28,11 @@ import {
 export default function Home() {
   return (
     <Grid
+      bg="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,85,139,1) 51%, rgba(49,55,55,1) 100%)"
       templateAreas={`"header header"
                   "nav main"
                   "nav footer"`}
-      gridTemplateRows={'fix-content 1fr 30px'}
+      gridTemplateRows={'fix-content 1fr 60px'}
       gridTemplateColumns={'fix-content 1fr'}
       h="90%"
       gap="1"
@@ -38,7 +40,7 @@ export default function Home() {
     >
       <GridItem
         pl="5"
-        bg="linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(12,85,139,1) 51%, rgba(49,55,55,1) 100%)"
+       
         area={'header'}
         align="center"
       >
@@ -90,14 +92,16 @@ export default function Home() {
           </Stack>
         </VStack>
       </GridItem>
-      <GridItem pl="2" bg="#F5F5F5" area={'nav'}>
+      <GridItem pl="2" bg="transparent"  area={'nav'}>
         <Projects></Projects>
       </GridItem>
-      <GridItem pl="2" bg="#F9F9F9" area={'main'}>
-        <About></About>
+      <GridItem pl="2" bg="transparent"   area={'main'}>
+        <About></About> 
       </GridItem>
-      <GridItem pl="2" bg="#333335" color="white" area={'footer'}>
-        Footer
+    
+
+      <GridItem pl="2" bg="transparent"  color="white" area={'footer'}>
+      <p>My Portfolio  - &copy; 2022</p>
       </GridItem>
     </Grid>
   )

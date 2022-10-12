@@ -6,6 +6,8 @@ import {
 } from '@chakra-ui/react'
 import React from 'react'
 import style from './About.module.css'
+import Technologies from '@/components/Technologies'
+
 export default function About() {
   return (
     <div className={style.main}>
@@ -16,8 +18,9 @@ export default function About() {
 
         <Container>
           <Image
+            padding={15}
             borderRadius="full"
-            boxSize="150px"
+            boxSize="250px"
             src="/carne.png"
             alt="Carlos Pérez"
           />
@@ -33,7 +36,11 @@ export default function About() {
           problem solving, multidisciplinary teamwork, effective communication
           and autonomy.
         </p>
+
+        <Technologies></Technologies>
       </Grid>
+
+      
       
     </div>
   )

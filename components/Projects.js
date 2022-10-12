@@ -9,22 +9,26 @@ return (
             <div className={style.title} bg="#F9F9F9">My Projects</div>
             <Image
                 boxSize='200px'
-                objectFit='cover'
+                borderRadius='full'
                 src= 'logoCane.png'
                 alt='Cane-food'
                 />
-            <p className={style.subtitle}>Final Project - Bootcamp Soy Henry
+            <p className={style.subtitle}>Final Project 
+                </p>
+            <p className={style.subtitle}>Bootcamp Soy Henry
                 </p>
 
-                <hr />
+            <br />
 
                 <Image
                 boxSize='200px'
-                objectFit='cover'
+                borderRadius='full'
                 src= 'huella.png'
                 alt='Dogs Life'
                 />
-            <p className={style.subtitle}>Individual Project - Bootcamp Soy Henry
+            <p className={style.subtitle}>Individual Project
+                </p>
+                <p className={style.subtitle}>Bootcamp Soy Henry
                 </p>
 
         </Grid>
